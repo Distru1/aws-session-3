@@ -20,5 +20,5 @@ jobs:
         run: |
           aws cloudformation deploy \
             --template-file cf-template.yaml \
-            --stack-name coderoad-ec2-test \
+            --stack-name coderoad-ec2 \
             --no-fail-on-empty-changeset
